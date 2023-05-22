@@ -4,7 +4,7 @@
             <nav class="container px-6 py-3 mx-auto md:flex md:justify-between md:items-center">
                 <div class="flex items-center justify-between sm:flex sm:items-center">
                     <div class="flex">
-                        <router-link to="/" class="text-xl text-amber-900 md:text-2xl hover:text-blue-400"><img src="@/assets/logo_notext.png" class="object-contain h-6" /> </router-link>
+                        <RouterLink to="/" class="text-xl text-amber-900 md:text-2xl hover:text-blue-400"><img src="./assets/logo_text.png" class="object-contain h-6" /> </RouterLink>
                     </div>
                     <!-- Mobile menu button -->
                     <div @click="showMenu = !showMenu" class="flex md:hidden">
@@ -16,10 +16,10 @@
 
                 <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
                 <ul :class="showMenu ? 'flex' : 'hidden'" class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0">
-                    <li class="text-sm text-amber-900 hover:text-blue-400">Home</li>
-                    <li class="text-sm text-amber-900 hover:text-blue-400">About</li>
-                    <li class="text-sm text-amber-900 hover:text-blue-400">Blogs</li>
-                    <li class="text-sm text-amber-900 hover:text-blue-400">Contact Us</li>
+                    <li class="text-sm text-amber-900 hover:text-blue-400"><RouterLink :to="'/'">Accueil</RouterLink></li>
+                    <li class="text-sm text-amber-900 hover:text-blue-400"><RouterLink :to="'about'">A propos</RouterLink></li>
+                    <li class="text-sm text-gray-500">Blog</li>
+                    <li class="text-sm text-amber-900 hover:text-blue-400"><RouterLink :to="'contact'">Contactez-nous</RouterLink></li>
                 </ul>
             </nav>
         </div>
