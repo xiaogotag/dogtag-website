@@ -30,49 +30,49 @@ import { ref } from "vue";
 const members = ref([
     {
         name: "Julien Augugliaro",
-        photo: "src/assets/julien.jpg",
+        photo: "https://i.imgur.com/vblzFeG.jpg",
         role: "Développeur backend",
         skills: ["Node.js", "Docker", "NoSQL", "Firebase"]
     },
     {
         name: "Marius Contoli",
-        photo: "src/assets/marius.jpg",
+        photo: "https://i.imgur.com/zz2NnwX.jpg",
         role: "Développeur frontend",
         skills: ["Angular"]
     },
     {
         name: "Eloise Richard",
-        photo: "src/assets/eloise.jpg",
+        photo: "https://i.imgur.com/1B7L4k4.jpg",
         role: "Développeur backend",
         skills: ["Node.js", "Docker", "NoSQL", "Firebase"]
     },
     {
         name: "Youssra El Ajli",
-        photo: "src/assets/youssra.jpg",
+        photo: "https://i.imgur.com/tGkIhBW.jpg",
         role: "Développeur backend",
         skills: ["Node.js", "Docker", "NoSQL", "Firebase"]
     },
     {
         name: "Jeremy Dumesny",
-        photo: "src/assets/jeremy.jpg",
+        photo: "https://i.imgur.com/jxD9JSo.jpg",
         role: "Développeur mobile",
         skills: ["Flutter", "iOS", "Android"]
     },
     {
         name: "Hugo Suzanne",
-        photo: "src/assets/hugo.jpg",
+        photo: "https://i.imgur.com/9D4AyWK.jpg",
         role: "Développeur mobile",
         skills: ["Flutter", "iOS", "Android"]
     },
     {
         name: "Konstantin Kurilov",
-        photo: "src/assets/konstantin.jpg",
+        photo: "https://i.imgur.com/xh2zLVH.jpg",
         role: "Développeur hardware",
         skills: ["Arduino", "C++"]
     },
     {
         name: "Alizee Patricola",
-        photo: "src/assets/alizee.jpg",
+        photo: "https://i.imgur.com/e3cMJpp.jpg",
         role: "Développeur hardware",
         skills: ["Arduino"]
     }
