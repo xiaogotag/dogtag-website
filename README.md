@@ -1,3 +1,3 @@
 # dogtag-website
 
-https://api.dogtag.dev
+https://dogtag.dev
